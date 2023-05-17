@@ -1,6 +1,4 @@
-import MaterialUiPhoneNumber from './components/index';
+import App from './App';
+import ReactDOM from 'react-dom';
 
-export default MaterialUiPhoneNumber;
-
-/* eslint-disable */
-if (__DEV__) require('./demo.jsx');
+ReactDOM.render(<App />, document.getElementById('root'));
